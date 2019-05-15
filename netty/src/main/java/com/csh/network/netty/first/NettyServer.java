@@ -34,7 +34,7 @@ public class NettyServer {
 	 * 初始化一些基本数据
 	 */
 	public void init() {
-		// 初始化线程组
+		// 初始化线程组，如果不传递参数，默认构建的线程组中的线程数量是CPU核心数
 		acceptOrGroup = new NioEventLoopGroup();
 		clientOrGroup = new NioEventLoopGroup();
 		// 初始化服务配置

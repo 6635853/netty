@@ -19,6 +19,12 @@
 			<version>5.0.0.Alpha2</version>
 			<!-- <version>4.1.24.Final</version> -->
 		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-codec</artifactId>
+			<version>5.0.0.Alpha2</version>
+			<!-- <version>4.1.24.Final</version> -->
+		</dependency>
 		<!-- 接收处理工具 -->
 		<dependency>
 			<groupId>org.jboss.marshalling</groupId>
